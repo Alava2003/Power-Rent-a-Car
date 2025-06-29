@@ -1,0 +1,122 @@
+/* Importar la fuente Poppins desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Poppins', sans-serif;
+
+  /* Tamaños de texto */
+  --font-size-encabezado-1: 56px;
+  --font-size-encabezado-2: 48px;
+  --font-size-encabezado-3: 40px;
+  --font-size-encabezado-4: 32px;
+  --font-size-encabezado-5: 24px;
+  --font-size-encabezado-6: 20px;
+
+  --font-size-texto-grande: 20px;
+  --font-size-texto-mediano: 18px;
+  --font-size-texto-regular: 16px;
+  --font-size-texto-pequeno: 14px;
+  --font-size-texto-minimo: 12px;
+
+  /* Alturas de línea */
+  --line-height-ajustada: 120%;
+  --line-height-media: 130%;
+  --line-height-amplia: 140%;
+  --line-height-extra-amplia: 150%;
+}
+
+/* Tipografía base */
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-texto-regular);
+  line-height: var(--line-height-extra-amplia);
+  color: #111;
+}
+
+/* Encabezados personalizados */
+.encabezado-1 {
+  font-size: var(--font-size-encabezado-1);
+  line-height: var(--line-height-ajustada);
+  font-weight: 800;
+}
+
+.encabezado-2 {
+  font-size: var(--font-size-encabezado-2);
+  line-height: var(--line-height-ajustada);
+  font-weight: 800;
+}
+
+.encabezado-3 {
+  font-size: var(--font-size-encabezado-3);
+  line-height: var(--line-height-ajustada);
+  font-weight: 800;
+}
+
+.encabezado-4 {
+  font-size: var(--font-size-encabezado-4);
+  line-height: var(--line-height-media);
+  font-weight: 800;
+}
+
+.encabezado-5 {
+  font-size: var(--font-size-encabezado-5);
+  line-height: var(--line-height-amplia);
+  font-weight: 800;
+}
+
+.encabezado-6 {
+  font-size: var(--font-size-encabezado-6);
+  line-height: var(--line-height-amplia);
+  font-weight: 800;
+}
+
+/* Textos descriptivos en español */
+.texto-grande {
+  font-size: var(--font-size-texto-grande);
+  line-height: var(--line-height-extra-amplia);
+}
+
+.texto-mediano {
+  font-size: var(--font-size-texto-mediano);
+  line-height: var(--line-height-extra-amplia);
+}
+
+.texto-regular {
+  font-size: var(--font-size-texto-regular);
+  line-height: var(--line-height-extra-amplia);
+}
+
+.texto-pequeno {
+  font-size: var(--font-size-texto-pequeno);
+  line-height: var(--line-height-extra-amplia);
+}
+
+.texto-minimo {
+  font-size: var(--font-size-texto-minimo);
+  line-height: var(--line-height-extra-amplia);
+}
+
+/* Pesos tipográficos */
+.font-extra-bold {
+  font-weight: 800;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semi-bold {
+  font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
