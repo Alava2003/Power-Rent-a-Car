@@ -1,0 +1,73 @@
+:root {
+  /* Gris - Plata */
+  --gris-plata-1: #575757;
+  --gris-plata-2: #707172;
+  --gris-plata-3: #8A8C8D;
+  --gris-plata-4: #A3A6A7;
+  --gris-plata-5: #BCC0C2;
+
+  /* Tonos de gris oscuro */
+  --gris-oscuro-1: #616161;
+  --gris-oscuro-2: #6D6D6D;
+  --gris-oscuro-3: #7D7D7D;
+  --gris-oscuro-4: #555555;
+  --gris-oscuro-5: #474747;
+
+  /* Gris + Rojo */
+  --gris-tibio:     #8B8783;
+  --gris-carbón:    #525252;
+  --gris-humo:      #3C3D3C;
+  --rojo-fuerte:    #B50000;
+  --rojo-brillante: #DE0000;
+
+  /* Degradado gris neutro */
+  --gris-base-1: #2B2B2B;
+  --gris-base-2: #545454;
+  --gris-base-3: #808080;
+  --gris-base-4: #AFAFAF;
+  --gris-base-5: #E1E1E1;
+
+  /* Gris metálico y negro */
+  --gris-metal-1: #293438;
+  --gris-metal-2: #242C30;
+  --gris-metal-3: #1D2429;
+  --gris-metal-4: #0F1314;
+  --negro-puro:   #010100;
+}
+
+/* CLASES DE COLOR DIRECTAS */
+
+.fondo-gris-plata-1   { background-color: var(--gris-plata-1); }
+.fondo-gris-plata-2   { background-color: var(--gris-plata-2); }
+.fondo-gris-plata-3   { background-color: var(--gris-plata-3); }
+.fondo-gris-plata-4   { background-color: var(--gris-plata-4); }
+.fondo-gris-plata-5   { background-color: var(--gris-plata-5); }
+
+.fondo-gris-oscuro-1  { background-color: var(--gris-oscuro-1); }
+.fondo-gris-oscuro-2  { background-color: var(--gris-oscuro-2); }
+.fondo-gris-oscuro-3  { background-color: var(--gris-oscuro-3); }
+.fondo-gris-oscuro-4  { background-color: var(--gris-oscuro-4); }
+.fondo-gris-oscuro-5  { background-color: var(--gris-oscuro-5); }
+
+.fondo-gris-tibio     { background-color: var(--gris-tibio); }
+.fondo-gris-carbon    { background-color: var(--gris-carbón); }
+.fondo-gris-humo      { background-color: var(--gris-humo); }
+.fondo-rojo-fuerte    { background-color: var(--rojo-fuerte); }
+.fondo-rojo-brillante { background-color: var(--rojo-brillante); }
+
+.fondo-gris-base-1    { background-color: var(--gris-base-1); }
+.fondo-gris-base-2    { background-color: var(--gris-base-2); }
+.fondo-gris-base-3    { background-color: var(--gris-base-3); }
+.fondo-gris-base-4    { background-color: var(--gris-base-4); }
+.fondo-gris-base-5    { background-color: var(--gris-base-5); }
+
+.fondo-gris-metal-1   { background-color: var(--gris-metal-1); }
+.fondo-gris-metal-2   { background-color: var(--gris-metal-2); }
+.fondo-gris-metal-3   { background-color: var(--gris-metal-3); }
+.fondo-gris-metal-4   { background-color: var(--gris-metal-4); }
+.fondo-negro-puro     { background-color: var(--negro-puro); }
+
+/* Colores de texto (opcional) */
+.texto-rojo-brillante { color: var(--rojo-brillante); }
+.texto-gris-oscuro    { color: var(--gris-oscuro-1); }
+.texto-negro          { color: var(--negro-puro); }
