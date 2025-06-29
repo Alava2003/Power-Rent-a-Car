@@ -33,6 +33,12 @@
   --gris-metal-3: #1D2429;
   --gris-metal-4: #0F1314;
   --negro-puro:   #010100;
+
+  /* IDENTIDAD DE */
+  --id-marca-blanco: #ffffff;
+  --id-marca-rojo: #b82521;
+  --id-marca-negro: #1d1d1b;
+
 }
 
 /* CLASES DE COLOR DIRECTAS */
@@ -67,7 +73,18 @@
 .fondo-gris-metal-4   { background-color: var(--gris-metal-4); }
 .fondo-negro-puro     { background-color: var(--negro-puro); }
 
+
+.fondo-id-marca-rojo { background-color: var(--id-marca-rojo); }
+.fondo-id-marca-blanco { background-color: var(--id-marca-blanco); }
+.fondo-id-marca-negro { background-color: var(--id-marca-negro); }
+
+
 /* Colores de texto (opcional) */
 .texto-rojo-brillante { color: var(--rojo-brillante); }
 .texto-gris-oscuro    { color: var(--gris-oscuro-1); }
 .texto-negro          { color: var(--negro-puro); }
+
+
+.texto-id-marca-rojo { color: var(--id-marca-rojo); }
+.texto-id-marca-blanco { color: var(--id-marca-blanco); }
+.texto-id-marca-negro { color: var(--id-marca-negro); }
