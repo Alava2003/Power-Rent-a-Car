@@ -9,6 +9,9 @@
             break;
         case 4:
             break;
+        case 5:
+            include("../view/login.html");
+            break;
         default:
             ?>
             <p>No se ha enviado ninguna opción</p>

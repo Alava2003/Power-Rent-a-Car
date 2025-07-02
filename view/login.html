@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="../public/css/login.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="../model/login.php" method="POST"> <!--aqui llamo al php con el metodo post-->
+            <h1>Inicio de sesión</h1>
+            <div class="inputs">
+                <input type="text" placeholder="Ingrese su usuario" name="usuario" required><!--importante poner los name-->
+                <img src="../public/img/iconos/usuario.png" class="iconos">
+            </div>
+            <div class="inputs">
+                <input type="password" placeholder="Ingrese su contraseña" name="clave" required> <!--importante poner los name-->
+                <img src="../public/img/iconos/contrasena.png" class="iconos">
+            </div>
+            <div class="olvidarContra">
+                <label><input type="checkbox">Recordar</label>
+                <a href="#">¿Olvidaste la contraseña?</a>
+            </div>
+            <button type="submit" class="boton">Iniciar sesión</button>
+            <div class="registrarUsuario">
+                <p>¿Aún no tienes cuenta? <a href="#">Registrarse</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
