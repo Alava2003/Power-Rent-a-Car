@@ -1,6 +1,11 @@
+.headerContenedor{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.144);
+}
 .navegar{
     display: flex;
-    justify-content: right;
+    align-items: center;
+    justify-content: space-between;
     margin-right: 5%;
 }
 .navegar ul{
@@ -19,3 +24,7 @@
 .navegar ul li a:hover{
     border-bottom: 3px solid red;
 }
+.logo{
+    height: 90px;
+}
+
