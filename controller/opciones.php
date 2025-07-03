@@ -12,6 +12,9 @@
         case 5:
             include("../view/login.html");
             break;
+        case 6:
+            include("../model/cerrarSesion.php");
+            break;
         default:
             ?>
             <p>No se ha enviado ninguna opción</p>

@@ -1,3 +1,7 @@
+<?php
+    session_start();
+    $nombre = $_SESSION['nombre'] ?? null;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +19,12 @@
                 <li><a href="controller/opciones.php?opc=2">¿Dónde nos encontramos?</a></li>
                 <li><a href="controller/opciones.php?opc=3">Vehículos</a></li>
                 <li><a href="controller/opciones.php?opc=4">Contacto</a></li>
-                <li><a href="controller/opciones.php?opc=5">Iniciar sesión</a></li>
+                <?php if($nombre): ?>
+                    <li><a href="controller/opciones.php?opc=6">Cerrar sesión</a></li>
+                    <li><strong><?= htmlspecialchars($nombre)?></strong></li>
+                <?php else: ?>
+                    <li><a href="controller/opciones.php?opc=5">Iniciar sesión</a></li>
+                <?php endif; ?>
             </ul>
         </nav>
     </header>

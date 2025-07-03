@@ -14,7 +14,8 @@
     if($resultado->num_rows === 1){
         $datos = $resultado->fetch_assoc();
         $_SESSION['usuario'] = $datos['username'];
-        header("Location: ../index.html");
+        $_SESSION['nombre'] = $datos['nombreUsuario'];
+        header("Location: ../index.php");
         exit();
     }else{
         ?>
